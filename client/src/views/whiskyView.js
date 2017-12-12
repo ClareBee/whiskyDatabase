@@ -12,8 +12,8 @@ WhiskyView.prototype = {
       var img = document.createElement('img');
       var link = document.createElement('form');
       link.classList = "edit";
-      link.innerHTML = `<form method="link" action="edit.html">
-    <input type="submit" value="Edit"/></form>`;
+      link.innerHTML = "<form method='link' action='edit.html'>"+
+    "<input type='submit' value='Edit'>" + "</form>";
       img.classList = "bottle";
       img.src = "../whisky.jpg";
       text.innerText = whisky.name + ": " + whisky.type;
