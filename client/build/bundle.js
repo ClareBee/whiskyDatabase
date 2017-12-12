@@ -103,17 +103,14 @@ WhiskyView.prototype = {
 
     console.log(whiskys);
     whiskys.forEach( function(whisky){
-      var li = document.createElement('li');
+      var hook = document.getElementById('whiskys');
       var text = document.createElement('p');
-      var ul = document.getElementById('whiskys');
       var img = document.createElement('img');
       img.classList = "bottle";
       img.src = "../whisky.jpg";
       text.innerText = whisky.name + ": " + '"' + whisky.type + '"';
-      li.appendChild(text);
-      ul.appendChild(li);
-      ul.appendChild(img);
-
+      hook.appendChild(text);
+      hook.appendChild(img);
     });
   }
 }

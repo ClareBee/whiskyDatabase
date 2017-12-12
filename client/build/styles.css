@@ -1,12 +1,55 @@
 body {
-  background-color: yellow;
+  background-color: #FEF7E3;
+  font-family: 'Spectral SC', serif;
+}
+
+input, button {
+  font-family: 'Spectral SC', serif;
+}
+h1 {
+  border-top: 2px solid #009FB7;
+  border-bottom: 2px solid #009FB7;
+
+}
+
+#whisky_entry {
+  width: 250px;
 }
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 50%;
+  align-items: center;
+  justify-content: center;
 }
 .bottle {
   width: 100px;
   height: 100px;
+  border: 2px solid #009FB7;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#bar {
+  width: 100%;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+#deleteButton {
+  background-color: #B9E4EB;
+  height: 50px;
+  width: 100px;
+  margin: 40px;
+  font-weight: bold;
 }
