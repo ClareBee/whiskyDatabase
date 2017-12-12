@@ -1,0 +1,12 @@
+body {
+  background-color: yellow;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.bottle {
+  width: 100px;
+  height: 100px;
+}
