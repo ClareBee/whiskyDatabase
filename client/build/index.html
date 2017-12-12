@@ -11,23 +11,23 @@
 </head>
 <body>
 
-    <img id="bar" src="/wbar.jpg">
-    <div id="title">
-  <h1>Whiskys of Scotland</h1>
+  <img id="bar" src="/wbar.jpg">
+  <div id="title">
+    <h1>Whiskys of Scotland</h1>
 
-  <div class="container">
-    <form id="whisky_entry" action="/whiskys" method="POST">
-      <input type="text" placeholder="name" name="name" required>
-      <input type="text" placeholder="type" name="type" required>
-      <button type="submit">Submit</button>
-    </form>
-    <form action="/delete" method="POST">
-      <button id="deleteButton" type="submit">Delete All</button>
-    </form>
-</div>
-  <div class="list-container">
-    <ul id="whiskys">
-    </ul>
-  </div>
-</body>
-</html>
+    <div class="container">
+      <form id="whisky_entry" action="/whiskys" method="POST">
+        <input type="text" placeholder="name" name="name" required>
+        <input type="text" placeholder="type" name="type" required>
+        <button type="submit">Submit</button>
+      </form>
+      <form action="/delete" method="POST">
+        <button id="deleteButton" type="submit">Delete All</button>
+      </form>
+    </div>
+    <div class="list-container">
+      <ul id="whiskys">
+      </ul>
+    </div>
+  </body>
+  </html>
